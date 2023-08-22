@@ -1,0 +1,32 @@
+<-Method One (if)->
+michael_palin_drome = input("A word: ")
+if(one==one[::-1]):
+  print(one + " is a palindrome.")
+else:
+  print(one + " is not a palindrome.")
+
+<-Example: "malayalam" is a palindrome, while "GitHub" isn't.->
+
+<- Method Two (Function) ->
+def palindrome(word):
+  return word==word[::-1]
+
+word = "daddy"
+ans=palindrome(word)
+
+if ans:
+  print(str(word) +" is palindrome")
+else: 
+  print("not palindrome.")
+
+<-Method Three: For Loop->
+x = "palindrome"
+w = ""
+for i in x:
+  w = i + w
+if (x==w):
+  print(str(x) + " is a palindrome.")
+else:
+  print(str(x) + " is not a palindrome.")
+
+
